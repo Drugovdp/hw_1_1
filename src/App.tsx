@@ -5,12 +5,14 @@ import { HW3 } from './HW/3/HW3';
 import { HW4 } from './HW/4/HW4';
 
 function App() {
+  
   return (
     <div className="App">
+      <div>{Math.trunc(1.08*27.777778)}</div>
       <HW1 />
       <HW2 />
       <HW3 />
-      {/*<HW4 />*/}
+      <HW4 />
     </div>
   );
 }
